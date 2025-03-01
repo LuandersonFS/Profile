@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+nav {
+  background-color: salmon;
+  align-content: end;
+}
+
+#headItems {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  & li {
+    display: inline-block;
+  }
+  & a {
+    display: block;
+    margin: 0 1em;
+    padding: 2em 2em;
+
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+main {
+  margin: 10px;
+}
+
+#profilePictureWrapper {
+	display:inline-block;
+  margin: 20px 5px 5px 20px;
+}
+
+#profilePicture {
+  float: left;
+  border-radius: 30%;
+  max-width: 15vw;
+}
+#profilePictureWrapper > figcaption {
+  max-width: 25vw;
+  display: inline-block;
+  margin: 2vw;
+}
+#profileAbout{
+	display:inline-block;
+}
+#profileCurriculum{
+	text-align: center;
+}
